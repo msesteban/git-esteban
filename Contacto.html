@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <style>
+        body {
+    background-color: #fefefe
+    }
+    </style> 
+</head>
+<body>
+    <header>
+        <img width="80px" src="img/Logo-v-7 (1).png" alt="logo del fotografo">
+        <h1 id=tituloWeb >Alejandro Márquez</h1> 
+        <h2 class="colorSubtitulo"><em>Fotógrafo Fine Art</em></h2>
+        <div>
+            <nav>
+                <ul class="menu">            
+                    <li><a class="menuitem" href="./index.html">Inicio</a></li>
+                    <li><a class="menuitem" href="./Galeria.html">Galería</a></li>
+                    <li><a class="menuitem" href="./Sobre_mi.html">Sobre mí</a></li>
+                    <li><a class="menuitem" href="./Tienda_online.html">Tienda online</a></li>
+                    <li><a class="menuitem" href="./Proyectos.html">Proyectos</a></li>
+                    <li><a class="menuitem" href="./Servicios.html">Servicios</a></li>
+                    <li><a class="menuitem" href="./Contacto.html">Contacto</a></li>
+                </ul>        
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class=espacioForm>
+            <form>
+                <fieldset class=formularioContacto>
+                    <legend><h2>Contáctanos</h2></legend>
+                <div>
+                    <label for="indicanombre">Nombre:</label>
+                    <input type="text" id="indicanombre" name="indicanombre" placeholder="Juan">
+                </div>
+                <br>
+                <div>
+                    <label for="indicaapellido">Apellido:</label>
+                    <input type="text" id= "indicaapellido"name="indicaapellido" placeholder="Sánchez">
+                </div>
+                <br>
+                <div>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id=mail name="mail" placeholder="juansanchez@outlook.com">
+                </div>
+                <br>
+                <div>
+                <label for="Género">Género</label>
+                <select name="Género" id="sexo">
+                    <option value="Fem">Femenino</option>
+                    <option value="Mas">Masculino</option>
+                    <option value="Otr">Otro</option>
+                </select>
+                </div>
+                <div>
+                <br>
+                    <label for="newsletterSubscription">Quiero suscribirme al Newsletter</label>
+                    <input type="checkbox" id="newsletterSubscription"
+                    name="Quiero suscribirme al Newsletter" value="yes">
+                </div>
+                <div>
+                <br>
+                    <label for="comentarios">Comentarios</label>
+                <br>
+                    <textarea name="comentarios" id="comentarios" cols="50" rows="10">
+                    </textarea>
+                </div>
+                <div>
+                <br>
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Enviar">
+                </div>            
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <div>
+        <footer class="footerBottom">
+            <p><strong>Copyright &copy; 2021</strong> | Diseño Web realizado por Melina Esteban</p>
+        </footer>
+    </div>
+
+</body>
+</html>
