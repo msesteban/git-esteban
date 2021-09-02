@@ -1,0 +1,13 @@
+.footerBottom {
+  position: fixed;
+  display: block;
+  bottom: 1%;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.footerBottom p {
+  color: $color-primario;
+  text-align: center;
+  font-size: 12px;
+}

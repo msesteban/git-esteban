@@ -1,0 +1,187 @@
+/**{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: white
+}
+
+header {
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/*ALL
+
+.parrafos{
+  color: rgb(35, 45, 57);
+  margin-left: 25%;
+  padding: 1px;
+  height: 1000 px;
+}
+
+  /*HEADER-MENU
+
+#tituloWeb {
+  color: rgb(35, 45, 57);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.colorSubtitulo {
+  color: rgb(35, 45, 57);
+  font-weight: 200;
+  font-size: 13px;
+}
+
+li {
+  color: rgb(187,162,134);
+}
+
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a.menuIndex {
+  display: block;
+  color: rgb(35, 45, 57);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(66, 76, 98);
+  color: white;
+}
+li a.menuitem {
+  display: block;
+  color: rgb(35, 45, 57);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/*INDEX - MAIN FOTOGRAFÍAS
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-between;
+  margin-left: 25%;
+  gap: 15px;
+  padding: 10px;
+}
+
+.contenedor img {
+  width: 300px;
+  height: 200px;
+}
+
+  /*SERVICIOS
+
+.tablaServicios{
+  color: rgb(66, 76, 98);
+  font-size: 10;
+  padding: 5px;
+  text-align: center;
+}
+.espacioServicios {
+  margin-left: 25%;
+  padding: 10px;
+  height: 1000 px;
+  }
+  
+
+  /*CONTACTO
+
+.formularioContacto{
+  color:rgb(35, 45, 57);
+  padding: 1%;
+  margin-top: 10px;
+}
+
+.espacioForm {
+  margin-left: 25%;
+  padding: 1px;
+  height: 1000 px;
+}
+
+  /*PROYECTOS
+
+  .flex-container {
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-left: 30%;
+      
+  }
+  
+  .proyecto1 {
+      background-color: rgb(66, 76, 98);
+      color: white;
+      padding: 10px;
+      border: 5px rgb(35, 45, 57);
+      margin: 10px;
+      width: 250px;
+      height: 400px;
+      text-align: center;
+      line-height: 75px;
+  }
+  
+  .proyecto2 {
+      background-color: rgb(66, 76, 98);
+      color: white;
+      padding: 10px;
+      border: 5px rgb(35, 45, 57);
+      margin: 10px;
+      width: 250px;
+      height: 400px;
+      text-align: center;
+      line-height: 75px;
+  }
+  
+  .proyecto3 {
+      background-color: rgb(66, 76, 98);
+      color: white;
+      padding: 10px;
+      border: 5px rgb(35, 45, 57);
+      margin: 10px;
+      width: 250px;
+      height: 400px;
+      text-align: center;
+      line-height: 75px;
+  }
+  
+  .parrafoproyecto {
+      background-color: rgb(66, 76, 98);
+      font-size: 10px;
+      line-height: 20px;
+  }
+  
+  .fotografiaproyectos {
+      background-color: rgb(66, 76, 98);
+  }
+  .fotografiaproyectos img {
+      width: 200px;
+      padding-top: 20px;
+      background-color: rgb(66, 76, 98);
+  }
+
+/*FOOTER
+
+.footerBottom {
+  position: fixed;
+  display: block;
+  bottom: 1%;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}*/

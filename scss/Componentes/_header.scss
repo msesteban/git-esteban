@@ -1,0 +1,57 @@
+.header {
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: $blanco;
+}
+
+.&_logo img {
+  display: block;
+  margin: auto;
+  width: 95px;
+  height: 80px;
+  padding-top: 5px;  
+}
+
+
+.&_tituloWeb {
+  color: $color-primario;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+
+.&_Subtitulo {
+  color: $color-primario;
+  font-weight: 200;
+  font-size: 13px;
+  text-align: center;
+}
+
+.&__links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  padding-top: 26px;
+}
+
+.&__menu li a:hover {
+  background-color: $color-secundario;
+  color: $blanco;
+} 
+
+.&__menuitem {
+  display: block;  
+  padding: 6px 14px;
+  text-decoration: none;
+}
+
+.&__menuitem {
+  color: $color-primario;
+  font-size: 14px;
+}
