@@ -1,0 +1,23 @@
+{
+  "name": "fotograf_esteban_sass",
+  "version": "1.0.0",
+  "description": "Aplicando SASS al proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msesteban/git-esteban.git"
+  },
+  "author": "Melina Esteban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msesteban/git-esteban/issues"
+  },
+  "homepage": "https://github.com/msesteban/git-esteban#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
