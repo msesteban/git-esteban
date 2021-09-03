@@ -114,3 +114,26 @@ header {
   color: #232d39;
   font-size: 14px;
 }
+
+.galeria_parrafo {
+  margin-left: 25%;
+  padding: 10px;
+  height: 1000 px;
+}
+
+.galeria_parrafo p {
+  color: #232d39;
+  font-size: 15px;
+  text-align: center;
+}
+
+#carouselExampleInterval {
+  margin-left: 25%;
+  padding: 10px;
+  height: 1000px;
+}
+
+#carouselExampleInterval img {
+  width: 1000px;
+  height: 800px;
+}
