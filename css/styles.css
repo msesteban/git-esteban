@@ -31,17 +31,32 @@ body {
   height: 200px;
 }
 
-.Servicios__tabla {
-  margin-left: 50%;
-  padding: 10px;
+.Servicios_tabla {
+  margin: auto;
+  position: fixed;
+  margin-left: 45%;
+  padding: 20px;
   height: 1000 px;
 }
 
 .Servicios_types tr li {
+  color: #232d39;
+  font-size: 10;
+  padding: 5px;
+  text-align: center;
+}
+
+.tablaServicios {
   color: #424c62;
   font-size: 10;
   padding: 5px;
   text-align: center;
+}
+
+.espacioServicios {
+  margin-left: 25%;
+  padding: 10px;
+  height: 1000 px;
 }
 
 .footerBottom {
@@ -136,4 +151,88 @@ header {
 #carouselExampleInterval img {
   width: 1000px;
   height: 800px;
+}
+
+.formularioContacto {
+  color: #232d39;
+  padding: 1%;
+  margin-top: 10px;
+}
+
+.espacioForm {
+  margin-left: 25%;
+  padding: 1px;
+  height: 1000 px;
+}
+
+.proyectos_flex-container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-left: 30%;
+}
+
+.proyectos_proyecto1 {
+  background-color: #424c62;
+  color: #eee;
+  padding: 10px;
+  border: 5px #232d39;
+  margin: 10px;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.proyectos_proyecto2 {
+  background-color: #424c62;
+  color: #eee;
+  padding: 10px;
+  border: 5px #232d39;
+  margin: 10px;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.proyectos_proyecto3 {
+  background-color: #424c62;
+  color: #eee;
+  padding: 10px;
+  border: 5px #232d39;
+  margin: 10px;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.proyectos_parrafos {
+  background-color: #424c62;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.proyectos_fotografia {
+  background-color: #424c62;
+}
+
+.proyectos_fotografia img {
+  width: 200px;
+  padding-top: 20px;
+  background-color: #424c62;
+}
+
+.sobre_mi_parrafo {
+  margin-left: 25%;
+  padding: 10px;
+  height: 1000 px;
 }
