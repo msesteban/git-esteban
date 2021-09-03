@@ -31,6 +31,19 @@ body {
   height: 200px;
 }
 
+.Servicios__tabla {
+  margin-left: 50%;
+  padding: 10px;
+  height: 1000 px;
+}
+
+.Servicios_types tr li {
+  color: #424c62;
+  font-size: 10;
+  padding: 5px;
+  text-align: center;
+}
+
 .footerBottom {
   position: fixed;
   display: block;
@@ -45,7 +58,7 @@ body {
   font-size: 12px;
 }
 
-.header {
+header {
   width: 25%;
   position: fixed;
   height: 100%;
