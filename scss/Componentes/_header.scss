@@ -1,9 +1,13 @@
-.header {
+@mixin header{
   width: 25%;
   position: fixed;
   height: 100%;
   overflow: auto;
   background-color: $blanco;
+}
+
+header{
+  @include header;
 }
 
 .&_logo img {
