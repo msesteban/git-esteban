@@ -44,11 +44,16 @@ header{
   padding-top: 26px;
 }
 
-.header__menu li a:hover {
-  background-color: $color-secundario;
-  color: $blanco;
+.header__menu {
+  li {
+    a {
+      :hover {
+        background-color: $color-secundario;
+        color: $blanco;
+      }
+    }
+  }
 } 
-
 .header__menuitem {
   display: block;  
   padding: 6px 14px;
