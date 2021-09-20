@@ -5,46 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">   
-    <style>
-        body {
-            background-color: #fefefe
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">  
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <img width="80px" src="img/Logo-v-7 (1).png" alt="logo del fotografo">
-        <h1 id=tituloWeb >Alejandro Márquez</h1> 
-        <h2 class="colorSubtitulo"><em>Fotógrafo Fine Art</em></h2>
+    <header class="header">
+        <div class= "header_contenedor"></div>
+            <div class="header_logo">
+            <img src="img/Logo-v-7 (1).png" alt="logo del fotografo">
+            </div> 
+        </div>   
+        <h1 class="header_tituloWeb" >Alejandro Márquez</h1> 
+        <h2 class="header_Subtitulo"><em>Fotógrafo Fine Art</em></h2>
         <div>
-            <nav>
-                <ul class="menu">            
-                    <li><a class="menuitem" href="./index.html">Inicio</a></li>
-                    <li><a class="menuitem" href="./Galeria.html">Galería</a></li>
-                    <li><a class="menuitem" href="./Sobre_mi.html">Sobre mí</a></li>
-                    <li><a class="menuitem" href="./Tienda_online.html">Tienda online</a></li>
-                    <li><a class="menuitem" href="./Proyectos.html">Proyectos</a></li>
-                    <li><a class="menuitem" href="./Servicios.html">Servicios</a></li>
-                    <li><a class="menuitem" href="./Contacto.html">Contacto</a></li>
-                </ul>        
+            <nav class="header__links">
+                <ul class="header__menu list-unstyled">            
+                <li><a class="header__menuitem" href="./index.html">Inicio</a></li>
+                <li><a class="header__menuitem" href="./Galeria.html">Galería</a></li>
+                <li><a class="header__menuitem" href="./Sobre_mi.html">Sobre mí</a></li>
+                <li><a class="header__menuitem" href="./Tienda_online.html">Tienda online</a></li>
+                <li><a class="header__menuitem" href="./Proyectos.html">Proyectos</a></li>
+                <li><a class="header__menuitem" href="./Servicios.html">Servicios</a></li>
+                <li><a class="header__menuitem" href="./Contacto.html">Contacto</a></li>
+                </ul>       
             </nav>
         </div>
-    </header>
+    </header>    
     
     <main>
         <!--indicar una breve presentación de la variedad de estilos de fotografía-->
-        <section class="parrafos">
+        <section class="galeria_parrafo">
             <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi error eaque tenetur perspiciatis hic, reprehenderit laudantium, maxime ratione adipisci iste illum architecto?
             </p>
         </section>
 
         <section> <!--galería fotográfica -->
-
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval=2000">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014618_960_720.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval=2000>
+                    <img src="https://cdn.pixabay.com/photo/2017/10/14/23/39/wall-art-2852231_960_720.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
         </section>
         
     </main>
@@ -54,5 +75,7 @@
             <p><strong>Copyright &copy; 2021</strong> | Diseño Web realizado por Melina Esteban</p>
         </footer>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
