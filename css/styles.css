@@ -10,6 +10,10 @@ body {
   background-color: #eee;
 }
 
+.contenedor_global {
+  min-height: calc(100vh - 20px);
+}
+
 .main_contenedor {
   display: -ms-grid;
   display: grid;
@@ -24,6 +28,7 @@ body {
   gap: 15px;
   padding: 10px;
   padding-bottom: 20px;
+  min-height: calc(100vh - 20px);
 }
 
 .main_contenedor img {
@@ -60,11 +65,13 @@ body {
 }
 
 .footerBottom {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   display: block;
-  bottom: 1%;
-  margin-top: 50px;
+  bottom: 0;
+  /*margin-top: 50px;*/
   width: 100%;
+  height: 20px;
 }
 
 .footerBottom p {
@@ -114,7 +121,7 @@ header {
   padding-top: 26px;
 }
 
-.header__menu li a:hover {
+.header__menu li a :hover {
   background-color: #424c62;
   color: #eee;
 }

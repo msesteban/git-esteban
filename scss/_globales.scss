@@ -8,3 +8,7 @@
 body {
   background-color: $blanco;
 }
+
+.contenedor_global {
+  min-height: calc(100vh - 20px);
+}
