@@ -29,11 +29,21 @@ body {
   padding: 10px;
   padding-bottom: 20px;
   min-height: calc(100vh - 20px);
+  overflow: hidden;
 }
 
 .main_contenedor img {
   width: 300px;
   height: 200px;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.main_contenedor img:hover {
+  webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .Servicios_tabla {
@@ -121,9 +131,23 @@ header {
   padding-top: 26px;
 }
 
-.header__menu li a :hover {
+.header__links ul li a:hover {
   background-color: #424c62;
   color: #eee;
+}
+
+.header__links ul:hover a {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.header__links ul li a:hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-filter: none;
+          filter: none;
 }
 
 .header__menuitem {
@@ -135,6 +159,66 @@ header {
 .header__menuitem {
   color: #232d39;
   font-size: 14px;
+}
+
+.redes_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.redes_container ul li {
+  display: inline-block;
+  margin: 0 6px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.redes_container ul li a {
+  display: block;
+  padding: 0px 0px;
+  background-color: #424c62;
+  color: #eee;
+  line-height: 25px;
+  font-size: 16px;
+  -webkit-box-shadow: 0 3px 3px 0px #424c62;
+          box-shadow: 0 3px 3px 0px #424c62;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.redes_container ul:hover a {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.redes_container ul li a:hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.redes_container ul li .redes_facebook:hover {
+  background-color: #3b5999;
+}
+
+.redes_container ul li .redes_instagram:hover {
+  background-color: #e4405f;
+}
+
+.redes_container ul li .redes_twitter:hover {
+  background-color: #55acee;
 }
 
 .galeria_parrafo {

@@ -44,16 +44,20 @@ header{
   padding-top: 26px;
 }
 
-.header__menu {
-  li {
-    a {
-      :hover {
+.header__links ul li a:hover {
         background-color: $color-secundario;
         color: $blanco;
       }
-    }
-  }
-} 
+.header__links ul:hover a{
+        filter: blur(1px);
+      }
+      
+.header__links ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 5px 0px rgba(0,0,0,.4);
+        filter: none;
+      }
+    
 .header__menuitem {
   display: block;  
   padding: 6px 14px;
@@ -64,3 +68,49 @@ header{
   color: $color-primario;
   font-size: 14px;
 }
+
+.redes_container{
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: right;
+}
+.redes_container ul li {
+  display: inline-block;
+  margin: 0 6px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.redes_container ul li a {
+  display: block;
+  padding: 0px 0px;
+  background-color: $color-secundario;
+  color: $blanco;
+  line-height: 25px;
+  font-size: 16px;
+  box-shadow: 0 3px 3px 0px $color-secundario;
+  transition: .2s;
+}
+
+.redes_container ul:hover a{
+  filter: blur(2px);
+}
+
+.redes_container ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0,0,0,.4);
+  filter: none;
+}
+
+.redes_container ul li .redes_facebook:hover{
+  background-color: #3b5999;
+}  
+.redes_container ul li .redes_instagram:hover{
+  background-color: #e4405f
+} 
+.redes_container ul li .redes_twitter:hover{
+  background-color: #55acee
+} 
+
