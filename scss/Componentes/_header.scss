@@ -42,6 +42,7 @@ header{
   height: 100%;
   overflow: auto;
   padding-top: 26px;
+  overflow: auto;
 }
 
 .header__links ul li a:hover {
@@ -70,11 +71,10 @@ header{
 }
 
 .redes_container{
-  display: flex;
-  height: 50vh;
-  align-items: center;
-  justify-content: right;
-}
+  position: fixed;
+  bottom: 10px;
+ }
+
 .redes_container ul li {
   display: inline-block;
   margin: 0 6px;
@@ -113,4 +113,31 @@ header{
 .redes_container ul li .redes_twitter:hover{
   background-color: #55acee
 } 
+
+@media (max-width: 700px) {
+  .header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .header__menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+.header__menu ul li{
+  float: left;
+  div.content {margin-left: 0;}
+}
+.main_contenedor  {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+}
 

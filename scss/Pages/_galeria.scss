@@ -2,12 +2,14 @@
     margin-left: 25%;
     padding: 10px;
     height: 1000 px;
+    padding-top: 50px;
 }
 
 .galeria_parrafo p {
   color: $color-primario;
   font-size: 15px;
   text-align: center;
+  font-style:italic;
 }
 
 #carouselExampleInterval {
@@ -17,6 +19,7 @@
 }
 
 #carouselExampleInterval img {
-width: 1000px;
+width: 900px;
 height: 800px;
 }
+
