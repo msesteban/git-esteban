@@ -7,8 +7,12 @@
 
 body {
   background-color: $blanco;
+  overflow: auto;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 2.5rem;
 }
 
 .contenedor_global {
-  min-height: calc(100vh - 20px);
+  /*min-height: calc(100vh - 20px);*/
 }

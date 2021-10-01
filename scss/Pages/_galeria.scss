@@ -1,7 +1,7 @@
 .galeria_parrafo {
     margin-left: 25%;
     padding: 10px;
-    height: 1000 px;
+    height: 100%;
     padding-top: 50px;
 }
 
@@ -14,12 +14,14 @@
 
 #carouselExampleInterval {
   margin-left: 25%;
-  padding: 10px;
-  height: 1000px;
+  padding: 20px;
+  height: 100%;
 }
 
 #carouselExampleInterval img {
-width: 900px;
-height: 800px;
+/*width: 700px;
+height: 500px;*/
+max-width: 70%;
+margin: auto;
 }
 

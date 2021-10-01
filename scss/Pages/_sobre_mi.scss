@@ -1,13 +1,13 @@
 .sobre_mi_parrafo {
   margin-left: 25%;
   padding: 10px;
-  height: 1000px;
+  height: 100%;
 }
 
 .contenedor_about {
   width: 100%;
-  max-width: 1000px;
-  margin: auto;
+  max-width: 100%;
+  /*margin: auto;*/
   margin-top: 50px;
 }
 
@@ -19,7 +19,7 @@
   padding-top: 30px;
   box-shadow: 0 5px 0px rgba(0, 0, 0,0.3);
   border-radius: 5px;
-}
+  }
 
 
 .contenedor_about img:hover {
