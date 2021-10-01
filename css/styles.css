@@ -14,10 +14,9 @@ body {
   padding-bottom: 2.5rem;
 }
 
-.contenedor_global {
-  /*min-height: calc(100vh - 20px);*/
-}
-
+/*.contenedor_global {
+  min-height: calc(100vh - 20px);
+}*/
 .main_contenedor {
   display: -ms-grid;
   display: grid;
